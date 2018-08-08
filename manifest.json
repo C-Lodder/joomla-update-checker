@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Oudated Joomla Version Detect",
+  "version": "0.0.1",
+
+  "description": "Detects if your Joomla site is outdated",
+
+  "icons": {
+    "48": "icons/detect.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+		"*://*.bcsmania.co.uk/administrator/*",
+		"*://downloads.joomla.org/api/v1/releases/*"
+	  ],
+      "js": ["detect.js"]
+    }
+  ]
+
+}
