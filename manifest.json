@@ -1,22 +1,18 @@
 {
   "manifest_version": 2,
-  "name": "Oudated Joomla Version Detect",
+  "name": "Joomla Update Checker",
   "version": "0.0.1",
-
-  "description": "Detects if your Joomla site is outdated",
-
+  "description": "A Firefox extension that checks whether or not your site is up to date",
   "icons": {
-    "48": "icons/detect.png"
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
   },
-
   "content_scripts": [
     {
       "matches": [
-		"*://*.bcsmania.co.uk/administrator/*",
-		"*://downloads.joomla.org/api/v1/releases/*"
+		"<all_urls>"
 	  ],
       "js": ["detect.js"]
     }
   ]
-
 }
