@@ -17,7 +17,7 @@ This Firefox extension will notify you if your Joomla website is outdated.
 
 > Version 1.1, December 2016
 
-> Copyright (C) [year] [fullname]
+> Copyright (C) 2018 Charlie Lodder
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document.
