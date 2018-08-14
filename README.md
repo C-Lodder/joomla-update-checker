@@ -1,3 +1,9 @@
-# My outdated Joomla site (browser extension)
+# Joomla Update Checker - A Firefox browser extension
 
-This is a Firefox extension that notifies you when your Joomla sites require an update
+This Firefox extension will notify you if your Joomla website is outdated.
+
+# Usage
+
+1. Download
+2. Visit your site
+3. Open up your browser console
