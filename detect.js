@@ -15,6 +15,13 @@
 		http.onreadystatechange = () => {
 			if (http.readyState === 4) {
 				if (http.status === 404) {
+					// We're not dealing with a Joomla site, no need to continue
+					return;
+				}
+				else if (http.status === 403) {
+					// Hosting provider has blocked remote access to file.
+					// Sometimes a case when the site is behind a proxy, such as CloudFlare
+					console.log('Access to XML file has been restricted');
 					return;
 				}
 				const parser = new DOMParser();
