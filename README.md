@@ -1,3 +1,42 @@
-# My outdated Joomla site (browser extension)
+# Joomla Update Checker - A Firefox browser extension
 
-This is a Firefox extension that notifies you when your Joomla sites require an update
+This Firefox extension will notify you if your Joomla website is outdated.
+
+# Usage
+
+1. Download
+2. Extract the zip file
+3. Open the following URL in Firefox > `about:debugging`
+4. Click **Load Temporary Add-on**
+5. Navigate to the directory of the extension you downloaded (you can select any file in the directory)
+6. Visit your site
+7. Open up your browser console
+
+-------------------------------
+
+# DON'T BE A DICK PUBLIC LICENSE
+
+> Version 1.1, December 2016
+
+> Copyright (C) 2018 Charlie Lodder
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document.
+
+> DON'T BE A DICK PUBLIC LICENSE
+> TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+1. Do whatever you like with the original work, just don't be a dick.
+
+   Being a dick includes - but is not limited to - the following instances:
+
+  - 1a. Outright copyright infringement - Don't just copy this and change the name.
+  - 1b. Selling the unmodified original with no work done what-so-ever, that's REALLY being a dick.
+  - 1c. Modifying the original work to contain hidden harmful content. That would make you a PROPER dick.
+
+2. If you become rich through modifications, related works/services, or supporting the original work,
+share the love. Only a dick would make loads off this work and not buy the original work's
+creator(s) a pint.
+
+3. Code is provided with no warranty. Using somebody else's code and bitching when it goes wrong makes
+you a DONKEY dick. Fix the problem yourself. A non-dick would submit the fix back.
