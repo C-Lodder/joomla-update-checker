@@ -1,18 +1,26 @@
 {
   "manifest_version": 2,
   "name": "Joomla Update Checker",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Firefox extension that checks whether or not your site is up to date",
+
   "icons": {
     "48": "icons/icon-48.png",
     "96": "icons/icon-96.png"
   },
-  "content_scripts": [
-    {
-      "matches": [
-		"<all_urls>"
-	  ],
-      "js": ["detect.js"]
-    }
-  ]
+
+  "permissions": [
+    "<all_urls>",
+    "tabs",
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/icon-48.png"
+    },
+    "default_title": "Joomla Update Checker",
+    "default_popup": "popup/detect.html",
+    "browser_style": true
+  }
 }

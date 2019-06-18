@@ -9,8 +9,8 @@ This Firefox extension will notify you if your Joomla website is outdated.
 3. Open the following URL in Firefox > `about:debugging`
 4. Click **Load Temporary Add-on**
 5. Navigate to the directory of the extension you downloaded (you can select any file in the directory)
-6. Visit your site
-7. Open up your browser console
+6. Visit your Joomla! website
+7. Open the extension and click "Detect"
 
 -------------------------------
 
